@@ -4,9 +4,9 @@ if (Meteor.isClient) {
       particles: {
         color: '#fff',
         color_random: false,
-        shape: 'circle', // "circle", "edge" or "triangle"
+        shape: 'triangle', // "circle", "edge" or "triangle"
         opacity: {
-          opacity: 1,
+          opacity: .8,
           anim: {
             enable: true,
             speed: 1.5,
@@ -37,7 +37,7 @@ if (Meteor.isClient) {
       interactivity: {
         enable: true,
         mouse: {
-          distance: 300
+          distance: 500
         },
         detect_on: 'canvas', // "canvas" or "window"
         mode: 'grab', // "grab" of false

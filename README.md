@@ -98,6 +98,8 @@ particlesJS('particles-js', {
 
 <a href="http://htmlpreview.github.io/?https://github.com/VincentGarreau/particles.js/blob/master/demo/index.html" target="_blank">GitHub demo</a>
 
+Meteor <a href="http://particlesjs.meteor.com/" target="_blank">demo</a> / <a href="https://github.com/newswim/particlesJSmeteor">repo</a>
+
 -------------------------------
 
 
