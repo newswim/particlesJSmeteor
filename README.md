@@ -4,7 +4,17 @@
 
 -------------------------------
 
+
+## in Meteor
+
+1. add the package: meteor add newswim:particles
+2. wrap your particle code in Meteor.startup()
+
+
+-------------------------------
+
 Load particles.js and configure the particles:
+
 
 **index.html**
 ```html
@@ -95,9 +105,4 @@ particlesJS('particles-js', {
 ##### ***Install with Bower***
 ```
 bower install particles.js --save
-```
-
-##### ***Install with Meteor***
-```
-meteor add newswim:particles
 ```
