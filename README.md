@@ -5,7 +5,7 @@
 -------------------------------
 
 
-## in Meteor
+**in Meteor**
 
 1. add the package: meteor add newswim:particles
 2. wrap your particle code in Meteor.startup()
