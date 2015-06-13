@@ -6,17 +6,18 @@ var where = 'client';
 
 Package.describe({
   name: packageName,
-  version: '1.1.0',
-  summary: 'ParticlesJS(official) : A lightweight JavaScript library for creating particles.',
-  git: 'https://github.com/VincentGarreau/particles.js',
+  version: '2.0.0',
+  summary: 'Create & generate interactive particles.',
+  git: 'https://github.com/newswim/particles.js.git',
   documentation: 'README.md'
 });
 
 
 Package.onUse(function(api) {
-  // we can add older versions here if need be
+  // including older version
   api.versionsFrom('1.1.0.2');
   api.addFiles('particles.js','client');
+  //api.addFiles('../../particles.json','client');
   api.export('pJS', 'client');
 });
 
