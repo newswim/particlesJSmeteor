@@ -1,5 +1,7 @@
 ## particles.js
 
+# Repo along with demo moved to https://github.com/newswim/particlesjs-meteor
+
 ### A lightweight JavaScript library for creating particles.
 
 -------------------------------
